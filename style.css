@@ -1,0 +1,118 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(50deg,#56f5f5,#6c6ceb,#fd19fd);
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 100vh;
+}
+.login{
+    width: 400px;
+    height: 360px;
+    background-color: #fff;
+    border: 1px lightblue solid;
+    border-radius:0 70px;
+  /*  box-shadow: 0px 8px 24px rgba(0, 0, 0, .15);   */
+}
+h1{
+    margin-top: 8px;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    outline:none ;
+    border: none;
+    border-radius:0 30px;
+    height: 1cm;
+    width: 6cm;
+    text-align: center;
+    margin-top: .7cm;
+    margin-bottom: 5px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.20);
+}
+a{
+    text-decoration: none;
+}
+.p1{
+    text-align: center;
+    padding-top: 7px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.774);
+}
+.p1:hover{
+    color: #04c3fd;
+}
+.p2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.774);
+   
+}
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: .7cm;
+    height: 1cm;
+    width: 5cm;
+    background:linear-gradient(45deg,#015858,#6c6ceb,#570057);
+    color: #edf0f1;
+    border: 2px solid #edf0f1;
+    border-radius:0 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background:linear-gradient(45deg,#026666,#7777ff,#740174)
+}
+.moo{
+    margin-left: 200px;
+    color: #edf0f1;
+    font-family: cursive;
+}
+.moo:hover{
+    color:black ;
+}
+#fa{
+    color: #3b5998;
+    font-size: .7cm;
+    margin-top: .5cm;
+    margin-left: 3.3cm;
+    transition: all 0.3s ease 0;
+}
+#fa:hover{
+    color: #5485ee;
+}
+#gi{
+    color: #c20dc2;
+    font-size: .7cm;
+    margin-top: .5cm;
+    margin-left: 1cm;
+    transition: all 0.3s ease 0;
+}
+#gi:hover{
+    color: #eb63eb;
+}
+#go{
+    color: red;
+    font-size: .7cm;
+    margin-top: .5cm;
+    margin-left: 1cm;
+    transition: all 0.3s ease 0;
+}
+#go:hover{
+    color: rgb(238, 76, 76);
+}
